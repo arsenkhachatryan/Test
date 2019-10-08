@@ -8,7 +8,7 @@ namespace Test
         {
             Console.WriteLine("Hello World from master 1");
             //Testing
-            Console.WriteLine("Hello World from master 2");
+            Console.WriteLine("Hello World from test branch");
         }
     }
 }
