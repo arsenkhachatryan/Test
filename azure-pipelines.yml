@@ -15,7 +15,7 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'run'
-    projects: './'
+    projects: './Test.csproj'
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
