@@ -21,3 +21,7 @@ steps:
   inputs:
     command: 'run'
     projects: './'
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: './'
